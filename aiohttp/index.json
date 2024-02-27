@@ -1,0 +1,24 @@
+{
+  "name": "AioHttp",
+  "description": "Async http client/server framework (asyncio).",
+  "programs": [
+    {
+      "name": "AioHttp Client",
+      "description": "A demo program that sends http requests to google.com",
+      "file": "aiohttp-client-demo.py",
+      "requirements": [
+        "aiohttp",
+        "asyncio"
+      ]
+    },
+    {
+      "name": "AioHttp Server",
+      "description": "A demo program that hosts a server on port 5858.",
+      "file": "aiohttp-server-demo.py",
+      "requirements": [
+        "aiohttp",
+        "asyncio"
+      ]
+    }
+  ]
+}

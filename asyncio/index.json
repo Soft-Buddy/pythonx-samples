@@ -1,0 +1,14 @@
+{
+  "name": "AsyncIO",
+  "description": "Reference implementation of PEP 3156",
+  "programs": [
+    {
+      "name": "AsyncIO Tasks",
+      "description": "A demo program showing usage of asyncio to perform asnychronous tasks.",
+      "file": "asyncio-demo.py",
+      "requirements": [
+        "asyncio"
+      ]
+    }
+  ]
+}

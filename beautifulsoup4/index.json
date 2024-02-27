@@ -1,0 +1,15 @@
+{
+  "name": "BeautifulSoup4",
+  "description": "Screen-scraping library for Python",
+  "programs": [
+    {
+      "name": "BeautifulSoup4 Weather",
+      "description": "A demo program that shows the weather of a place using requests and beautifulsoup4.",
+      "file": "beautifulsoup4-demo.py",
+      "requirements": [
+        "requests",
+        "beautifulsoup4"
+      ]
+    }
+  ]
+}
