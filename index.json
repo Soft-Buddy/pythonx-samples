@@ -25,8 +25,13 @@
       "requirements": "requests beautifulsoup4"
     },
     {
+      "name": "Django App",
+      "description": "Create a new Django project.",
+      "requirements": "tzdata django"
+    },
+    {
       "name": "Flask App",
-      "description": "A demo app made using Flask that runs on port 5000.",
+      "description": "Create a new Flask App.",
       "file": "templates/flask/flask-demo.py",
       "requirements": "markupsafe flask"
     },
