@@ -1,0 +1,34 @@
+{
+  "templates": [
+    {
+      "name": "AioHttp (Client)",
+      "description": "A demo program that sends http requests to google.com",
+      "file": "aiohttp/aiohttp-client-demo.py",
+      "requirements": "asyncio aiohttp"
+    },
+    {
+      "name": "AioHttp (Server)",
+      "description": "A demo program that hosts a server on port 5858.",
+      "file": "aiohttp/aiohttp-server-demo.py",
+      "requirements": "asyncio aiohttp"
+    },
+    {
+      "name": "AsyncIO Tasks",
+      "description": "A demo program showing usage of asyncio to perform asnychronous tasks.",
+      "file": "asyncio/asyncio-demo.py",
+      "requirements": "asyncio"
+    },
+    {
+      "name": "BeautifulSoup4 Weather",
+      "description": "A demo program that shows the weather of a place using requests and beautifulsoup4.",
+      "file": "beautifulsoup4/beautifulsoup4-demo.py",
+      "requirements": "requests beatifulsoup4"
+    },
+    {
+      "name": "Flask App",
+      "description": "A demo app made using Flask that runs on port 5000.",
+      "file": "beautifulsoup4/beautifulsoup4-demo.py",
+      "requirements": "markupsafe flask"
+    }
+  ]
+}
