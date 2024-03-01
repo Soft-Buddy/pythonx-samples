@@ -3,32 +3,86 @@
     {
       "name": "AioHttp (Client)",
       "description": "A demo program that sends http requests to google.com",
-      "file": "aiohttp/aiohttp-client-demo.py",
+      "file": "templates/aiohttp/aiohttp-client-demo.py",
       "requirements": "asyncio aiohttp"
     },
     {
       "name": "AioHttp (Server)",
       "description": "A demo program that hosts a server on port 5858.",
-      "file": "aiohttp/aiohttp-server-demo.py",
+      "file": "templates/aiohttp/aiohttp-server-demo.py",
       "requirements": "asyncio aiohttp"
     },
     {
       "name": "AsyncIO Tasks",
-      "description": "A demo program showing usage of asyncio to perform asnychronous tasks.",
-      "file": "asyncio/asyncio-demo.py",
+      "description": "A demo program showing usage of asyncio to perform asynchronous tasks.",
+      "file": "templates/asyncio/asyncio-demo.py",
       "requirements": "asyncio"
     },
     {
       "name": "BeautifulSoup4 Weather",
       "description": "A demo program that shows the weather of a place using requests and beautifulsoup4.",
-      "file": "beautifulsoup4/beautifulsoup4-demo.py",
-      "requirements": "requests beatifulsoup4"
+      "file": "templates/beautifulsoup4/beautifulsoup4-demo.py",
+      "requirements": "requests beautifulsoup4"
     },
     {
       "name": "Flask App",
       "description": "A demo app made using Flask that runs on port 5000.",
-      "file": "beautifulsoup4/beautifulsoup4-demo.py",
+      "file": "templates/flask/flask-demo.py",
       "requirements": "markupsafe flask"
+    },
+    {
+      "name": "NLTK Chat",
+      "description": "A demo program that uses NLTK for basic chat.",
+      "file": "templates/nltk/nltk-demo.py",
+      "requirements": "nltk"
+    },
+    {
+      "name": "Numpy Demo",
+      "description": "A demo program that uses numpy to perform some mathematical calculations.",
+      "file": "templates/numpy/numpy-demo.py",
+      "requirements": "numpy"
+    },
+    {
+      "name": "Pandas Demo",
+      "description": "A demo program that uses pandas to create dataframes.",
+      "file": "templates/pandas/pandas-demo.py",
+      "requirements": "numpy pandas"
+    },
+    {
+      "name": "PyPdf2 Password Demo",
+      "description": "A demo program that uses pypdf2 to apply password on a pdf file.",
+      "file": "templates/pypdf2/pypdf2-demo.py",
+      "requirements": "pypdf2",
+      "assets": "templates/pypdf2/input.pdf"
+    },
+    {
+      "name": "Regex Demo",
+      "description": "A demo program that uses regex to extract text pieces matching a pattern.",
+      "file": "templates/regex/regex-demo.py",
+      "requirements": "regex"
+    },
+    {
+      "name": "SQLite3 Demo",
+      "description": "A demo program that uses sqlite3 to create a database and manipulate it.",
+      "file": "templates/sqlite3/sqlite3-demo.py"
+    },
+    {
+      "name": "Tornado Server Demo",
+      "description": "A demo program that uses tornado to host a server on port 8888.",
+      "file": "templates/tornado/tornado-demo.py",
+      "requirements": "tornado"
+    },
+    {
+      "name": "UrlLib3 Demo",
+      "description": "A demo program that uses urllib3 to send http request to google.com.",
+      "file": "templates/urllib3/urllib3-demo.py",
+      "requirements": "urllib3"
+    },
+    {
+      "name": "Yarl Demo",
+      "description": "A demo program that uses yarl to deal with URLs.",
+      "file": "templates/yarl/yarl-demo.py",
+      "requirements": "yarl"
     }
   ]
 }
