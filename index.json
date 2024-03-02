@@ -39,7 +39,7 @@
       "name": "NLTK Chat",
       "description": "A demo program that uses NLTK for basic chat.",
       "file": "templates/nltk/nltk-demo.py",
-      "requirements": "nltk"
+      "requirements": "regex nltk"
     },
     {
       "name": "Numpy Demo",
