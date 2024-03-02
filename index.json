@@ -54,6 +54,12 @@
       "requirements": "numpy pandas"
     },
     {
+      "name": "Psutil",
+      "description": "Cross-platform lib for process and system monitoring in Python.",
+      "file": "templates/psutil/psutil-demo.py",
+      "requirements": "psutil"
+    },
+    {
       "name": "PyPdf2 Password Demo",
       "description": "A demo program that uses pypdf2 to apply password on a pdf file.",
       "file": "templates/pypdf2/pypdf2-demo.py",
